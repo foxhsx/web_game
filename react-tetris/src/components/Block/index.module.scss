@@ -1,0 +1,31 @@
+:global {
+  b {
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border: 2px solid #879372;
+    margin: 0 2px 2px 0;
+    float: left;
+    &::after {
+      content: '';
+      display: block;
+      width: 12px;
+      height: 12px;
+      background-color: #879372;
+      overflow: hidden;
+    }
+    &.c {
+      border-color: #000;
+      &::after {
+        background-color: #000;
+      }
+    }
+    &.d {
+      background-color: #560000;
+      &::after {
+        background-color: #560000;
+      }
+    }
+  }
+}

@@ -13,23 +13,21 @@ body {
   text-align: left;
 }
 
-:global {
-  .r {
-    float: right;
-  }
-  .l {
-    float: left;
-  }
+.r {
+  float: right;
+}
+.l {
+  float: left;
+}
 
-  .clear {
-    clear: both;
-  }
+.clear {
+  clear: both;
+}
 
-  .bg {
-    background: url("//img.alicdn.com/tps/TB1qq7kNXXXXXacXFXXXXXXXXXX-400-186.png")
-      no-repeat;
-    overflow: hidden;
-  }
+.bg {
+  background: url("//img.alicdn.com/tps/TB1qq7kNXXXXXacXFXXXXXXXXXX-400-186.png")
+    no-repeat;
+  overflow: hidden;
 }
 
 * {
@@ -41,4 +39,8 @@ body {
   -ms-user-select: none;
   -khtml-user-select: none;
   user-select: none;
+}
+
+.clear {
+  clear: both;
 }
