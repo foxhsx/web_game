@@ -26,6 +26,25 @@
       &.eyes {
         background-position: -100px -100px;
       }
+      &.r1,&.l1 {
+        background-position: 0 -100px;
+      }
+      &.r2,&.l2 {
+        background-position: -100px -100px;
+      }
+      &.r3,&.l3 {
+        background-position: -200px -100px;
+      }
+      &.r4,&.l4 {
+        background-position: -300px -100px;
+      }
+      &.l1,&.l2,&.l3,&.l4{
+        transform: scale(-1, 1);
+        -webkit-transform: scale(-1, 1);
+        -ms-transform: scale(-1, 1);
+        -moz-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+      }
     }
   }
 }
